@@ -28,7 +28,7 @@ button{
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4d5ae4;
+        color: #4d5ae5;
 }
 
 .logo-style{
@@ -53,6 +53,7 @@ button{
 }
 
 .header-adr {
+    font-style: normal;
 }
 
 .header-adr-list {}
@@ -62,7 +63,6 @@ button{
 .header-adr-link {
         font-weight: 400;
         font-size: 16px;
-        font-style: normal;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
@@ -149,14 +149,17 @@ button{
         color: #2e2f42;
 }
 
-.team-list {}
+.team-list {
+    
+}
 
-.team-title-item {}
+.team-title-item {
+        background-color: #FFFFFF;
+}
 
 .team-img {}
 
 .team-img-item {
-    background-color: #FFFFFF;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -184,7 +187,9 @@ button{
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
+        text-align: center;
         letter-spacing: 0.02em;
+        text-transform: capitalize;
         color: #2e2f42;
 }
 
